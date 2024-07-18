@@ -1,0 +1,9 @@
+package spring.walab.example.board.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import spring.walab.example.board.entity.Board;
+
+public interface BoardRepository extends JpaRepository<Board, Long> {
+
+
+}
